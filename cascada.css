@@ -1,7 +1,7 @@
 p {
-  color: red !important;
+  color: red;
 }
 
 p {
-  color: blue;
+  color: blue !important;
 }
