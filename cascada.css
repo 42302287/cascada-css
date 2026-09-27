@@ -1,3 +1,5 @@
-.mensaje { color: red; }
-.mensaje { color: green; }
+p { color: gray; }
 .mensaje { color: blue; }
+.importante { color: green; }
+article .mensaje { color: orange; }
+#aviso { color: red; }
