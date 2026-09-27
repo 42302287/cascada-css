@@ -1,9 +1,2 @@
-@layer base, componentes;
-
-@layer base {
-  .mensaje { color: blue; }
-}
-
-@layer componentes {
-  .mensaje { color: green; }
-}
+.mensaje { color: green; }
+p { color: blue; }
