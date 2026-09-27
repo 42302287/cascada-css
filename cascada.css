@@ -1,9 +1,7 @@
 p { color: gray; }
-.mensaje { color: blue; }
-.importante { color: green; }
-article .mensaje { color: orange; }
-#aviso { color: red; }
-.importante {
-  color: purple !important;
-}
+.destacado { color: blue; }
+article p { color: green; }
+#texto { color: orange; }
+.contenedor article p { color: purple; }
+.destacado { color: red; }
 
