@@ -1,7 +1,3 @@
-@scope (.panel) {
-  p { color: blue; }
-}
-
-@scope (.tarjeta) {
-  p { color: red; }
-}
+.mensaje { color: red; }
+.mensaje { color: green; }
+.mensaje { color: blue; }
