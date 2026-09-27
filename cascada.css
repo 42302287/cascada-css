@@ -23,31 +23,31 @@ p {
 }
 
 .mensaje { 
-    color: green; 
+  color: green; 
 }
 p { 
-    color: blue; 
+  color: blue; 
 }
 
 #aviso { 
-    color: red; 
+  color: red; 
 }
 .mensaje { 
-    color: green;
- }
+  color: green;
+}
 p { 
-
-    color: blue; }
+  color: blue; 
+}
 
 .mensaje {
-     color: blue; 
-    }
+  color: blue; 
+}
 article .mensaje {
-     color: green; 
-    }
+  color: green; 
+}
 main article .mensaje {
-     color: red;
-     }
+  color: red;
+}
 
 @scope (.panel) {
   p { color: blue; }
@@ -58,48 +58,50 @@ main article .mensaje {
 }
 
 .mensaje { 
-    color: red; 
+  color: red; 
 }
 .mensaje { 
-    color: green; 
+  color: green; 
 }
 .mensaje {
-     color: blue; 
-    }
+  color: blue; 
+}
 
 p { 
-    color: gray;
- }
+  color: gray;
+}
 .mensaje { 
-    color: blue; 
+  color: blue; 
 }
 .importante { 
-    color: green; 
+  color: green; 
 }
 article .mensaje { 
-    color: orange; 
+  color: orange; 
 }
 #aviso {
-     color: red; 
-    }
+  color: red; 
+}
 
 .importante {
   color: purple !important;
 }
 
 p {
-     color: gray;
-     }
-.destacado { color: blue; 
+  color: gray;
+}
+.destacado { 
+  color: blue; 
 }
 article p { 
-    color: green;
- }
+  color: green;
+}
 #texto {
-     color: orange; 
-    }
+  color: orange; 
+}
 .contenedor article p {
-     color: purple; 
-    }
+  color: purple; 
+}
 .destacado { 
-    color: red; }
+  color: red; 
+}
