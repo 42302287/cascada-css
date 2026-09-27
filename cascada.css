@@ -3,3 +3,7 @@ p { color: gray; }
 .importante { color: green; }
 article .mensaje { color: orange; }
 #aviso { color: red; }
+.importante {
+  color: purple !important;
+}
+
