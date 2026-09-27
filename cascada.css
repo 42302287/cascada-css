@@ -5,3 +5,101 @@ p {
 p {
   color: blue;
 }
+
+p {
+  color: red;
+}
+
+p {
+  color: blue !important;
+}
+
+@layer base {
+  .mensaje { color: blue; }
+}
+
+@layer componentes {
+  .mensaje { color: green; }
+}
+
+.mensaje { 
+    color: green; 
+}
+p { 
+    color: blue; 
+}
+
+#aviso { 
+    color: red; 
+}
+.mensaje { 
+    color: green;
+ }
+p { 
+
+    color: blue; }
+
+.mensaje {
+     color: blue; 
+    }
+article .mensaje {
+     color: green; 
+    }
+main article .mensaje {
+     color: red;
+     }
+
+@scope (.panel) {
+  p { color: blue; }
+}
+
+@scope (.tarjeta) {
+  p { color: red; }
+}
+
+.mensaje { 
+    color: red; 
+}
+.mensaje { 
+    color: green; 
+}
+.mensaje {
+     color: blue; 
+    }
+
+p { 
+    color: gray;
+ }
+.mensaje { 
+    color: blue; 
+}
+.importante { 
+    color: green; 
+}
+article .mensaje { 
+    color: orange; 
+}
+#aviso {
+     color: red; 
+    }
+
+.importante {
+  color: purple !important;
+}
+
+p {
+     color: gray;
+     }
+.destacado { color: blue; 
+}
+article p { 
+    color: green;
+ }
+#texto {
+     color: orange; 
+    }
+.contenedor article p {
+     color: purple; 
+    }
+.destacado { 
+    color: red; }
